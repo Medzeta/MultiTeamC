@@ -239,7 +239,7 @@ class AutoUpdateModule(QWidget):
             info_text = f"""
 <h3>Development Mode Active</h3>
 <p><strong>Current Version:</strong> v{result['current_version']}</p>
-<p><strong>Repository:</strong> Medzeta/Multi-Team-C</p>
+<p><strong>Repository:</strong> Medzeta/MultiTeamC</p>
 
 <h4>Status:</h4>
 <p>No GitHub releases found yet. This is normal during development.</p>
