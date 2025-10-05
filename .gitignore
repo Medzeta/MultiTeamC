@@ -21,7 +21,24 @@ RELEASE_FILES/
 *.spec
 *.exe
 
-# Scripts med tokens (konfigureras lokalt)
-FINALPUBLISH.bat
-auto_publish_system.bat
-auto_github_push.bat
+# ALLA BAT-filer (lokala scripts)
+*.bat
+
+# Dokumentation (behövs inte på GitHub)
+*.md
+!README.md
+
+# Test-filer
+test_*.py
+debug_*.py
+check_*.py
+reset_*.py
+clear_*.py
+save_*.py
+
+# Build scripts
+build_*.py
+build_*.bat
+
+# Snapshots
+.snapshots/
