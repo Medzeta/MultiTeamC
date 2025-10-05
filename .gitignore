@@ -1,46 +1,10 @@
-# Känsliga filer - PUSHAS INTE
-data/
-logs/
-*.db
-*.key
-*.log
+# ============================================
+# MINIMAL REPOSITORY - ENDAST FÖR RELEASES
+# ============================================
+# GitHub behöver BARA README + Releases
+# All kod finns i EXE-filen!
 
-# Python cache
-__pycache__/
-*.pyc
-*.pyo
-
-# Build artifacts (pushas inte, bara releases)
-build/
-dist/
-updates/
-.venv/
-RELEASE_FILES/
-
-# PyInstaller
-*.spec
-*.exe
-
-# ALLA BAT-filer (lokala scripts)
-*.bat
-
-# Dokumentation (behövs inte på GitHub)
-*.md
+# Ignorera ALLT utom README
+*
+!.gitignore
 !README.md
-
-# Test-filer
-test_*.py
-check_*.py
-reset_*.py
-clear_*.py
-save_*.py
-
-# Debug logger behövs!
-!core/debug_logger.py
-
-# Build scripts
-build_*.py
-build_*.bat
-
-# Snapshots
-.snapshots/

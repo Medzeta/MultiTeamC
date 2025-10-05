@@ -1,6 +1,19 @@
 # MultiTeam P2P Communication
 
-En modulär P2P-baserad kommunikationsplattform för Windows med custom borderless UI.
+**Release Repository - Auto-Update System**
+
+This repository hosts releases for the MultiTeam application.  
+Download the latest version from [Releases](https://github.com/Medzeta/MultiTeamC/releases).
+
+---
+
+## 📥 Download
+
+Go to [Releases](https://github.com/Medzeta/MultiTeamC/releases) and download the latest `MultiTeam.exe`
+
+## 🔄 Auto-Update
+
+The application automatically checks for updates on startup and will prompt you to update when a new version is available.
 
 ## 🎯 Features
 
