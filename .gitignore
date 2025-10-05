@@ -1,0 +1,27 @@
+# Känsliga filer - PUSHAS INTE
+data/
+logs/
+*.db
+*.key
+*.log
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Build artifacts (pushas inte, bara releases)
+build/
+dist/
+updates/
+.venv/
+RELEASE_FILES/
+
+# PyInstaller
+*.spec
+*.exe
+
+# Scripts med tokens (konfigureras lokalt)
+FINALPUBLISH.bat
+auto_publish_system.bat
+auto_github_push.bat
