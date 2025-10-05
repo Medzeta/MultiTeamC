@@ -30,11 +30,13 @@ RELEASE_FILES/
 
 # Test-filer
 test_*.py
-debug_*.py
 check_*.py
 reset_*.py
 clear_*.py
 save_*.py
+
+# Debug logger behövs!
+!core/debug_logger.py
 
 # Build scripts
 build_*.py
