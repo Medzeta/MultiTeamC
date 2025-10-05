@@ -1,10 +1,11 @@
-# ============================================
-# MINIMAL REPOSITORY - ENDAST FÖR RELEASES
-# ============================================
-# GitHub behöver BARA README + Releases
-# All kod finns i EXE-filen!
-
-# Ignorera ALLT utom README
-*
-!.gitignore
-!README.md
+# Large files
+dist/
+build/
+*.exe
+*.zip
+__pycache__/
+*.pyc
+*.spec
+logs/
+backup/
+RELEASE_FILES/

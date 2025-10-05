@@ -1,0 +1,13 @@
+{
+    "email_verification_enabled": true,
+    "2fa_enabled": true,
+    "2fa_required_for_all": false,
+    "session_timeout_minutes": 60,
+    "remember_me_days": 30,
+    "max_login_attempts": 5,
+    "password_reset_enabled": true,
+    "google_oauth_enabled": false,
+    "minimize_to_tray": false,
+    "app_theme": "dark",
+    "log_level": "DEBUG"
+}
