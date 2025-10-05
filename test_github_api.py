@@ -9,7 +9,7 @@ def test_github_api():
     """Testa GitHub API anslutning"""
     
     # GitHub API URL
-    api_url = "https://api.github.com/repos/Medzeta/Multi-Team-C/releases/latest"
+    api_url = "https://api.github.com/repos/Medzeta/MultiTeamC/releases/latest"
     
     print("Testing GitHub API...")
     print(f"URL: {api_url}")
@@ -39,7 +39,7 @@ def test_github_api():
         elif response.status_code == 404:
             print("❌ Repository not found or no releases")
             print("Check if:")
-            print("  - Repository exists: https://github.com/Medzeta/Multi-Team-C")
+            print("  - Repository exists: https://github.com/Medzeta/MultiTeamC")
             print("  - Repository is public")
             print("  - At least one release exists")
             
